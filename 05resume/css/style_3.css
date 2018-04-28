@@ -1,0 +1,50 @@
+
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        .clearfix::after{
+            content: "";
+            clear: both;
+            display: block;
+        }
+        .wrap{
+            width: 60%;
+            height: 100%;
+            margin: auto;
+            border: 1px solid #ccc;
+        }
+        .top h1{
+            background: #858585;
+            margin: 0;
+            font-size: 20px;
+            padding: 16px 20px;
+            color: #fff;            
+        }
+        .info-title {
+            width: 100px;
+            height: 100px;
+            background: #ccc;
+            margin-bottom: 1px;
+            float: left;
+        }
+        .info-title h2{
+            text-align: center;
+            margin-top: 35px;
+            font-size: 16px;
+        }
+        .info .info-text p{
+            display: inline;
+            padding-right: 10px;
+        }
+        .info .info-text, .info .info-content {
+            margin: 15px 10px;
+        }
+        .info .info-text strong, .info-content strong{
+            padding: 15px;
+            
+        }
+        .info{
+            overflow: hidden;
+            border-bottom: 1px solid #ccc;
+        }

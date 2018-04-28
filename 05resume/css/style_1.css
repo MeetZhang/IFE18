@@ -1,0 +1,19 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.wrap{
+    width: 50%;
+    margin: auto;
+}
+.info strong{
+    margin-right: 8px;
+}
+.info .info-text p{
+    display: inline-block;
+    padding-right: 40px;
+}
+.info .info-content span{
+    display: block;
+    padding: 6px 0;
+}
