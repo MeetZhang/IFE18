@@ -14,3 +14,6 @@
 
 ## 任务五：  三种简历样式
 ### 任务五效果（[任务代码](https://github.com/MeetZhang/IFE18/blob/master/2018-04-29-Task05/05resume.html)|[Demo](http://zmqblog.top/IFE18/2018-04-29-Task05/05resume.html)）
+
+## 任务六：  三种简历样式
+### 任务六效果（[任务代码](https://github.com/MeetZhang/IFE18/blob/master/2018-04-30-Task06/index.html)|[Demo](http://zmqblog.top/IFE18/2018-04-30-Task06/index.html)）
