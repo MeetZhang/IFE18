@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>第三天：让简历有点色彩</title>
+    <style>
+        body{
+            padding: 0px;
+            margin: 0px;
+            font-family: '微软雅黑';
+            list-style: none;
+            background: rgb(121, 89, 89);
+        }
+        li{list-style: none;}
+        .resume{
+            width: 50%;
+            height: 100%;
+            margin: 0 auto;
+            /* border: 1px solid red; */
+            background-color:rgba(210,210,210,0.2);
+        }
+        main, footer{
+            width: 600px;
+            margin: 0 auto;
+        }
+        .title{
+            width: 100px;
+            margin: 0 auto;
+            text-shadow:5px 0px 8px rgb(109, 105, 74);
+            padding: 5px;
+        }
+        h2,h3,h4,h5,h6,p{
+            display: inline-block;
+        }
+        h2{
+            background: rgb(168, 168, 125);
+            border-radius: 15px;
+            width: 100%;
+            height: 35px;
+            text-indent: 20px;
+            margin: 10px;
+            color: rgb(29, 77, 133);
+            list-style: normal;
+        }
+        span{
+            font-weight: bold;
+            margin-right: 5px;
+        }
+        li{
+            padding: 5px 0;
+        }
+        .li{
+            list-style-type: disc;
+        }
+        .perject>li{
+            list-style-type: disc;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="resume">
+        <header class="top">
+            <h1 class="title">简历</h1>
+        </header>
+        <main class="main">
+            <h2>个人信息</h2>
+            <ul>
+                <li><span>姓名：</span>张铭钦</li>
+                <li><span>性别：</span>男</li>
+                <li><span>年龄：</span>21</li>
+                <li><span>学历：</span>大专</li>
+                <li><span>求职意向：</span>Web 前端工程师</li>
+                <li><span>求职意向：</span>Web 前端实习生</li>
+                <li><span>应届毕业生</span></li>
+                <li><span>电话：</span>1881929XXXX</li>
+                <li><span>邮箱：</span>MeetMotto@163.com</li>
+                <li><span>QQ：</span>972207518</li>
+                
+            </ul>
+            <h2>技术栈</h2>
+            <ul>
+                <li><span>HTML+CSS：</span>能够熟练还原 UI 设计师的设计图</li>
+                <li><span>JavaScript：</span>了解 JS 基础知识，了解原型/闭包等</li>
+                <li><span>JQuery：</span>了解并能够写出常用交互效果</li>
+                <li><span>Vue.js：</span>有使用 Vue+webpack 构建项目的经验</li>
+                <li><span>BootStrap/Element:</span> 快速搭建网页经验</li>
+                <li><span>PhotoShop:</span> 了解常用功能，满足工作需求</li>
+                <li><span>Webpack/npm/Git: </span>略微了解使用</li>
+            </ul>
+            <h2>项目经验</h2>
+            <ul class="perject">
+                <li><span>电商网站-天猫项目</span></li>
+                <p>简介: <em>包含首页模块/产品模块/订单模块/购物车模块/登录模块/注册模块
+                        使用很多的原生 html+css+js 完成天猫这样量级的前端效果和 JS 常用的交互效果</em></p>
+                <p>技术: <em>HTML + CSS + JS + JQ + BootStrap</em></p>
+                <p>地址: <a href="http://zmqblog.top/Tmall/index.html ">http://zmqblog.top/Tmall/index.html </a></p>
+                <li><span>Vue 餐饮店收银系统</span></li>
+                <p>简介: <em>餐饮店 POS 系统，使用 Vue-cli 搭建了项目构架，项目的图标使用阿里矢量图库
+                        前端框架使用了 Element 组件库快速布局，项目的打包，挂载到 GitHub</em></p>
+                <p>技术： <em>Vue + Webpack + Element</em></p>
+                <p>地址: <a href="http://zmqblog.top/Pos/dist/index.html/">http://zmqblog.top/Pos/dist/index.html/</a></p>
+                <li><span>在线 ToDoList 应用</span></li>
+                <p>简介: <em>使用模块化编程的方式用 JS 操控 DOM，事件，事件触发之间的逻辑关系，以及通
+                        过 Sore.js 实现 了浏览器的本地存储的，通过 Datetimepicker 插件实现日期
+                        的选择，完成了基本的增，删，改，查等功能，最后用 BootStrap 优化界面</em></p>
+                <p>技术： HTML + CSS + JS + JQuery + Sore.js + BootStrap</p>
+                <p>地址： <a href="http://zmqblog.top/MyToDoList/">http://zmqblog.top/MyToDoList/</a></p>
+                <li><span>响应式布局画出皮卡丘全过程</span></li>
+                <p>简介: <em>用 CSS3 写出响应式布局的皮卡丘，然后基于 JQuery 框架写 JS 逻辑实现动态加载，
+                        把制作皮卡丘的全过程展现出来，最后用 BootStrap 优化界面</em></p>
+                <p>技术: <em>CSS3 + JS + JQuery + BootStrap</em></p>
+                <p>地址: <a href="http://zmqblog.top/Pikachu/">http://zmqblog.top/Pikachu/</a></p>
+                <li><span>Vue 在线翻译</span></li>
+                <p>简介: <em>由 Vue2.0 搭建，接入 Translate ，包含 47 国语言，满足日常翻译需求</em></p>
+                <p>技术: <em>Vue2.0 + Translate + Bootstrap</em></p>
+                <p>地址: <a href="http://zmqblog.top/Vue_translate/dist/index.html">http://zmqblog.top/Vue_translate/dist/index.html</a></p>
+            </ul>
+        </main>
+        <footer>
+            <h2>About</h2>
+            <h4>一个踌躇满志具有自主学习与抗压能力的少年</h4>
+            <ul>
+                <li><span></span>Github：<a href="http://github.com/MeetZhang">http://github.com/MeetZhang</a></li>
+                <li><span></span>个人博客：<a href="http://zmqblog.top/">http://zmqblog.top/</a></li>
+            </ul>
+        
+        </footer>
+    </div>
+</body>
+</html>
