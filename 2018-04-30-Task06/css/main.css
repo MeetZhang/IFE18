@@ -76,7 +76,7 @@ header .nav a{
 }
 
 /* content-lists */
-.content-lists .item{
+/* .content-lists .item{
     width: 325px;
     height: 176px;
     border: 1px solid #bbb;
@@ -100,6 +100,30 @@ header .nav a{
 .content-lists3 .item:last-child{
     margin-right: 10px;
     width: 315px;
+} */
+
+/* 利用flex布局 */
+.content-lists {
+    display: flex;
+}
+.content-lists .item{
+    padding: 80px;
+    margin: 10px 10px 0 0;
+    border: 1px solid #666;
+    flex:  325px;
+
+}
+.content-lists1 .item:last-child{
+    flex:  280px;
+}
+.content-lists2 .item{
+    flex:  230px;
+}
+.content-lists3 .item{
+    flex:  308px
+}
+.content-lists3 .item:last-child{
+    flex:  315px;
 }
 
 /* footer */
